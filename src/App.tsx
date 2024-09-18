@@ -1,3 +1,5 @@
+import ImageSlider from "./component/image-slider";
+import Logo from "./component/logo";
 import Navbar from "./component/navbar";
 
 function App() {
@@ -5,6 +7,8 @@ function App() {
 
     <>
       <Navbar/>
+        <Logo />
+      <ImageSlider />
         </>
   );
 }

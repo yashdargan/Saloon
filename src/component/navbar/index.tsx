@@ -32,17 +32,17 @@ const Navbar: React.FC = () => {
           {isOpen ? <AiOutlineClose /> : <AiOutlineMenu />}{" "}
         </div>
         <ul
-          className={`${isOpen ? "flex" : "hidden"} sm:flex flex-col sm:flex-row sm:w-[35%] w-full h-max justify-center items-center sm:justify-around gap-x-8 top-12 absolute sm:static right-0 text-black sm:text-gray-600 bg-white bg-opacity-10`}
+          className={`${isOpen ? "flex" : "hidden"} sm:flex flex-col sm:flex-row sm:w-[35%] w-full h-screen sm:h-max justify-center items-center sm:justify-around  gap-y-8 sm:gap-x-8 top-12 absolute sm:static right-0 text-black sm:text-gray-600 bg-white bg-opacity-85 sm:bg-transparent`}
         >
           {menu.map(({ name, link }: IMenuList) => (
             <>
-              <div className="">{name}</div>
+              <div className="text-2xl">{name}</div>
             </>
           ))}
           <div className="flex flex-row justify-center items-center gap-4 sm:gap-5 py-2">
-            <AiFillFacebook className="text-2xl" />
-            <AiFillInstagram className="text-2xl" />
-            <AiFillYoutube className="text-2xl" />
+            <AiFillFacebook className="text-4xl" />
+            <AiFillInstagram className="text-4xl" />
+            <AiFillYoutube className="text-4xl" />
           </div>
         </ul>
       </nav>

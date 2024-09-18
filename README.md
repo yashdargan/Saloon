@@ -1,50 +1,39 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Salon Website
 
-Currently, two official plugins are available:
+![Salon Website Screenshot](./project.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
 
-## Expanding the ESLint configuration
+This is a responsive and modern salon website built using **React** and **Tailwind CSS**. The website allows users to explore various salon services such as **Manicure & Pedicure**, **Facial**, **Hair Treatment**, **Hair Cut**, and **Bridal**. The UI is designed with a focus on simplicity and user-friendliness, including a rotating display of service images with navigation arrows.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Features
 
-- Configure the top-level `parserOptions` property like this:
+- **Responsive Design**: Adapts to different screen sizes.
+- **Modern UI**: Clean, user-friendly interface designed with Tailwind CSS.
+- **Service Display**: Showcases salon services with images, descriptions, and transitions.
+- **Navigation**: Easily navigate through different services using left and right arrows.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Technologies Used
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- **React**: A JavaScript library for building user interfaces.
+- **Tailwind CSS**: A utility-first CSS framework for styling.
+- **React Icons**: For incorporating icons like navigation arrows.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Installation
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/salon-website.git
+2. Navigate to the project directory:
+   ```bash
+      cd salon-website
+      npm install
+
+
+### Key Points Added:
+1. **Deployment Instructions**: Included steps for deploying to Vercel and Netlify, two popular hosting platforms.
+2. **Tailwind CSS Tips**: Added practical tips for using Tailwind CSS effectively.
+
+Feel free to modify the instructions based on the specific deployment platform or Tailwind CSS tips that suit your project best!

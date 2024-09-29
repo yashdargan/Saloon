@@ -34,8 +34,8 @@ const Navbar: React.FC = () => {
     <>
       <nav className="flex w-full h-16 justify-between items-center px-6 bg-white shadow-md text-zinc-700 text-lg font-medium fixed top-0 z-50">
         <h2 className="text-2xl font-bold text-purple-600 hover:text-purple-800 transition-all duration-300 font-greatvibes">
-        <a href="#footer">
-          Manisha Makeover
+          <a href="#footer">
+            Manisha Makeover
           </a>
         </h2>
 
@@ -46,12 +46,12 @@ const Navbar: React.FC = () => {
         <ul
           className={`${
             isOpen ? "flex" : "hidden"
-          } sm:flex flex-col sm:flex-row sm:w-[40%]  w-full h-screen sm:h-max justify-center items-center sm:justify-between absolute sm:static top-16 right-0 bg-white sm:bg-transparent shadow-lg sm:shadow-none transition-all duration-300 ease-in-out`}
+          } sm:flex flex-col sm:flex-row sm:w-[40%] w-full h-screen sm:h-auto justify-center items-center sm:justify-between absolute sm:static top-16 right-0 bg-white sm:bg-transparent shadow-lg sm:shadow-none transition-all duration-300 ease-in-out`}
         >
           {menu.map(({ name, link }: IMenuList) => (
             <li
               key={name}
-              className="text-xl font-semibold hover:text-purple-600 py-5 transition-all duration-700 ease-in-out"
+              className="text-xl font-semibold hover:text-purple-600 py-5 sm:py-0 sm:px-4 transition-all duration-700 ease-in-out"
             >
               <a
                 href={link}
@@ -64,13 +64,13 @@ const Navbar: React.FC = () => {
           ))}
 
           <div className="flex flex-row justify-center items-center gap-6 mt-8 sm:mt-0">
-            <a href="https://www.instagram.com/angelslookunisexsalon?igsh=NXN6dTF5Mmk1azZ2" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/manisha.dargan.7" target="_blank" rel="noopener noreferrer">
               <AiFillFacebook className="text-3xl hover:text-purple-600 transition-all duration-300" />
             </a>
-            <a href="https://www.instagram.com/angelslookunisexsalon?igsh=NXN6dTF5Mmk1azZ2" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/angels_lookmakeup_studio?igsh=azhkdHd5Nm81eHNo" target="_blank" rel="noopener noreferrer">
               <AiFillInstagram className="text-3xl hover:text-purple-600 transition-all duration-300" />
             </a>
-            <a href="https://www.instagram.com/angelslookunisexsalon?igsh=NXN6dTF5Mmk1azZ2" target="_blank" rel="noopener noreferrer">
+            <a href="https://youtube.com/@manishadargan" target="_blank" rel="noopener noreferrer">
               <AiFillYoutube className="text-3xl hover:text-purple-600 transition-all duration-300" />
             </a>
             <a href="tel:8899044201">

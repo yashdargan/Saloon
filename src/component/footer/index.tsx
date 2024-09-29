@@ -9,13 +9,13 @@ const Footer: React.FC = () => {
           <p>&copy; 2024 All Rights Reserved.</p>
         </div>
         <div className="flex space-x-6">
-          <a href="https://www.instagram.com/angelslookunisexsalon?igsh=NXN6dTF5Mmk1azZ2" aria-label="Facebook">
+          <a href="https://www.facebook.com/manisha.dargan.7" aria-label="Facebook">
             <AiFillFacebook className="text-4xl hover:text-purple-400" />
           </a>
-          <a href="https://www.instagram.com/angelslookunisexsalon?igsh=NXN6dTF5Mmk1azZ2" aria-label="Instagram">
+          <a href="https://www.instagram.com/angels_lookmakeup_studio?igsh=azhkdHd5Nm81eHNo" aria-label="Instagram">
             <AiFillInstagram className="text-4xl hover:text-purple-400" />
           </a>
-          <a href="https://www.instagram.com/angelslookunisexsalon?igsh=NXN6dTF5Mmk1azZ2" aria-label="Youtube">
+          <a href="https://youtube.com/@manishadargan" aria-label="Youtube">
             <AiFillYoutube className="text-4xl hover:text-purple-400" />
           </a>
         
